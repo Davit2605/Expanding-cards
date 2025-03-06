@@ -7,6 +7,6 @@ imagesEl.forEach((image) => {
 });
 function updateImages() {
   imagesEl.forEach((image) => {
-    image.classList.remove("active");
+    image.classList.remov("active");
   });
 }
